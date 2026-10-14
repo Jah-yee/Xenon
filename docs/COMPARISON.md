@@ -23,7 +23,7 @@
 
 | 维度 | Xenon | Aider | Claude Code | OpenCode | Crush |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| **MCP 协议** | ✅ stdio + SSE | ❌ | ✅ 一等公民 | ✅ | ✅ stdio/http/sse |
+| **MCP 协议** | ⚠️ stdio + SSE（简化实现，无 endpoint 发现/会话关联，见 #103） | ❌ | ✅ 一等公民 | ✅ | ✅ stdio/http/sse |
 | **多模型路由** | ✅ 12 家厂商 | ✅ ~10 | ❌ Claude only | ✅ 50+ | ✅ 18+ |
 | **多范式引擎** | ✅ **7 种** | ❌ | ❌ | ❌ | ⚠️ 可 mid-session 换 LLM |
 | **本地优先** | ✅ Ollama + 本地凭据 | ⚠️ CLI 本地，模型云 | ❌ | ✅ | ✅ Ollama / llama.cpp |
